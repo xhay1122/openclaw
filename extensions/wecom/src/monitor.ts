@@ -155,7 +155,7 @@ function buildMessageContext(
     MediaTypes: mediaTypes,
     MediaUrls: mediaPaths,
 
-    QuoteContent: quoteContent,
+    ReplyToBody: quoteContent,
   });
 }
 
