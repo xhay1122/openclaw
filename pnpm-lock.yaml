@@ -440,15 +440,6 @@ importers:
 
   extensions/open-prose: {}
 
-  extensions/openclaw-wecom:
-    dependencies:
-      '@wecom/aibot-node-sdk':
-        specifier: ^1.0.0
-        version: 1.0.0
-      file-type:
-        specifier: ^21.3.0
-        version: 21.3.0
-
   extensions/signal: {}
 
   extensions/slack: {}
@@ -505,6 +496,15 @@ importers:
       zod:
         specifier: ^4.3.6
         version: 4.3.6
+
+  extensions/wecom:
+    dependencies:
+      '@wecom/aibot-node-sdk':
+        specifier: ^1.0.0
+        version: 1.0.0
+      file-type:
+        specifier: ^21.3.0
+        version: 21.3.0
 
   extensions/whatsapp: {}
 
